@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <!--    <TextView-->
+<!--        android:id="@+id/text_view_hightscore"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:padding="16dp"-->
+<!--        android:text="HighScore:0"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:freezesText="true"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_score"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:layout_below="@+id/text_view_hightscore"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:padding="16dp"-->
+<!--        android:text="Score:0"-->
+<!--        android:textSize="20sp"-->
+<!--        android:freezesText="true"/>-->
+
+
+    <TextView
+
+
+        android:id="@+id/math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="98dp"
+        android:freezesText="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Math Quiz"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+
+        android:textSize="35dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/video"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/math"
+        android:padding="20dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/oval_btn"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:paddingBottom="20dp"
+        android:text="Watch Video" />
+
+
+</RelativeLayout>

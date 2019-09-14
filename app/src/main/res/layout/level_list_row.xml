@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="0dp"
+        android:padding="16dp"
+        android:id="@+id/rl1"
+        android:paddingTop="16dp" >
+
+        <Button
+            android:id="@+id/level1"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/oval_btn"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/plogo" />
+        <!-- Signup Button -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/classspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:entries="@array/grade"
+                android:freezesText="true"
+                android:layout_centerHorizontal="true"
+                android:prompt="@string/grade_name" />
+
+            <Spinner
+                android:id="@+id/subjectspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/classspinner"
+                android:layout_marginTop="80dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:freezesText="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:freezesText="true"
+                android:text="Select Your Class and Topic"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/oval_btn"
+            android:layout_alignParentBottom="true"
+            android:freezesText="true"
+            android:padding="10dp"
+            android:text="Submit" />
+
+
+
+    </LinearLayout>
+</ScrollView>

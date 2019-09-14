@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MathWarrior</string>
+    <string name="grade_name">Choose your class and Topic</string>
+    <string-array name="grade">
+        <item> grade 6</item>
+        <item> grade 7</item>
+        <item> grade 8</item>
+        <item> grade 9</item>
+        <item> grade 10</item>
+    </string-array>
+</resources>
